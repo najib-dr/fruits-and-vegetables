@@ -1,4 +1,42 @@
+
+
+
+
 # 🍎🥕 Fruits and Vegetables
+
+
+## 🚀 Getting Started
+
+To run this application locally, you need to have docker compose installed.
+
+### 📥 Installing
+
+Execute the following command to run the application:
+
+``` bash
+docker compose up --build
+```
+
+
+After successful start, you should be able to access the application here http://localhost:8080
+
+
+### 📝 API Documentation
+
+The API documentation is available at http://localhost:8080/api/doc
+
+
+### 🧪 Tests
+
+To run tests, use the following command:
+
+``` bash
+docker compose exec app php bin/phpunit
+```
+
+
+
+## Below is the original README.md file from the task
 
 ## 🎯 Goal
 We want to build a service which will take a `request.json` and:
